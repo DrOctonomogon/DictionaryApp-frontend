@@ -1,0 +1,11 @@
+<div id="def-card" class="card card-body" *ngIf="dictionaryEntry.entryTitle != ''">
+  <div>
+    <h4 id="entry-title" class="card-title">{{dictionaryEntry.entryTitle}}</h4>
+    <h6 id="part-of-speech">{{dictionaryEntry.partOfSpeech}}</h6>
+  </div>
+  <p id="definition" class="card-text center" >{{dictionaryEntry.definition}}</p>
+  <div id="etymology" class="flex-row">
+    <em><p>{{dictionaryEntry.etymology}}</p></em>
+  </div>
+</div>
+

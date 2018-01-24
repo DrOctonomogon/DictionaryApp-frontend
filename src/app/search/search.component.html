@@ -1,0 +1,6 @@
+<div id="search-bar">
+  <div id="search-input">
+    <input id="search-field" type="text" #search (keyup.enter)="searchForWord(search.value)">
+    <i id="search-icon" (click)="searchForWord(search.value)" class="fa fa-search" aria-hidden="true"></i>
+  </div>
+</div>

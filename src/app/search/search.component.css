@@ -1,0 +1,35 @@
+#search-bar {
+  margin: 10%;
+  padding: 9px 7px;
+  background: white;
+  width: max-content;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px darkslategray;
+}
+
+#search-input {
+  display: inline;
+  width: 105%;
+  padding: 0 5%;
+}
+
+#search-field {
+  width: 85%;
+  overflow: unset;
+  padding-left: 2%;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid darkgray;
+}
+#search-field:focus {
+  outline: transparent;
+}
+
+#search-icon {
+  text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+  color: grey;
+}
+
+#search-icon:active {
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #fff;
+}

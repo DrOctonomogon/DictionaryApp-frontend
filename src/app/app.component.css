@@ -1,0 +1,9 @@
+#boundingbox {
+  display: block;
+  align-content: center;
+}
+
+.center {
+  margin: 30vh auto;
+  width: fit-content;
+}

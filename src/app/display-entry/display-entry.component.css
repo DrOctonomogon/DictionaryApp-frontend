@@ -1,0 +1,27 @@
+#def-card {
+  display: block;
+  margin: 5% 10%;
+  padding: 2vh;
+  width: 30vw;
+  box-shadow: 5px 5px 10px darkslategray;
+}
+
+#entry-title {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 1.7em;
+}
+
+#part-of-speech {
+  display: inline;
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+#definition {
+  margin: 10%;
+}
+
+#etymology {
+  font-size: 0.6em;
+}
